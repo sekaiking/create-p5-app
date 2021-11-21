@@ -1,0 +1,19 @@
+{
+  "name": "blank-p5-project",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "live-server src --port=1234 --host=0.0.0.0",
+    "build": "npm run clean && parcel build src/index.html --no-source-maps --no-cache",
+    "clean": "rimraf dist"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "parcel": "^2.0.1",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {}
+}
