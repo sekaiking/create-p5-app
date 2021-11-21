@@ -1,6 +1,6 @@
 {
-  "name": "create-p5-app",
-  "version": "1.0.0",
+  "name": "cp5",
+  "version": "1.0.1",
   "description": "generate a blank project to get started with P5.js library",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/achrafismyname/create-p5-app#readme",
   "bin": {
+    "cp5": "./index.js",
     "create-p5-app": "./index.js"
   },
   "dependencies": {
